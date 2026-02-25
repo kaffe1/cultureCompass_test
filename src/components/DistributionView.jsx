@@ -121,11 +121,11 @@ const DistributionView = ({
             let textColor = "#333";
             let borderColor = "#ccc";
 
-            if (isWaveA) {
+            if (isWaveB) {
               bgColor = "#1f77b4"; // Blue for WaveA
               textColor = "#fff";
               borderColor = "#1f77b4";
-            } else if (isWaveB) {
+            } else if (isWaveA) {
               bgColor = "#2ca02c"; // Green for WaveB
               textColor = "#fff";
               borderColor = "#2ca02c";
