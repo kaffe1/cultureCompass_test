@@ -58,13 +58,13 @@ function App() {
           </div>
         </div>
 
-        <div style={{ flex: 1, border: "1px solid #ccc", padding: "1rem" }}>
+        {/* <div style={{ flex: 1, border: "1px solid #ccc", padding: "1rem" }}>
           <FilterBarView
             data={filteredData}
             activeWaves={activeWaves}
             activeDimension={activeDimension}
           />
-        </div>
+        </div> */}
       </div>
     </>
   );
